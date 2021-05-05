@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: serif;
+  background-color: rgb(245, 245, 228);
+  line-height: 1.5;
+  padding: 0 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  padding: 36px 0;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 8px;
+}
+
+img {
+  width: 240px;
+}
+
+article, aside {
+  background-color: white;
+  padding: 36px;
+}
+
+main {
+  display: flex;
+  width: 80%;
+}
+
+aside {
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-heading {
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.author {
+  font-weight: 400;
+}
+
+.first-sentence {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.first-letter {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.reviews {
+  display: flex;
+  font-size: 14px;
+  text-align: center;
+  margin: 36px 0;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.review-card {
+  width: 40%;
+  margin: 12px;
+}
+
+.review-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.review-author {
+  font-style: italic;
+}
+
+footer {
+  padding: 24px 0;
+  text-align: center;
+}

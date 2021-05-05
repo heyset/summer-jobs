@@ -18,6 +18,6 @@ Alinhar elementos HTML com poucas linhas de código, seja horizontal ou vertical
 
 
 # Por quê isso é importante?
-Pois este recurso nos permite construir páginas *responsivas*, que es adaptam ao tamanho da tela do dispositivo do usuário, com uma facilidade muito maior do que seria sem ele.
+Pois este recurso nos permite construir páginas *responsivas*, que se adaptam ao tamanho da tela do dispositivo do usuário, com uma facilidade muito maior do que seria sem ele.
 
-Além disso, o Flexbox trivializa a tarefa de centralizar elementos, uma prática que envolvia alguns *truques* antigamente, principalmente quando se trata de alinhamento vertical.
+Além disso, o Flexbox trivializa a tarefa de centralizar elementos, uma prática que envolvia alguns *truques* antigamente, principalmente quando se tratava de alinhamento vertical.

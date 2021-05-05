@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  background-color: rgb(239, 239, 239);
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+  color: rgb(24, 24, 24);
+}
+
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding: 32px 0;
+}
+
+header img {
+  height: 45px;
+}
+
+header h1 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 64px;
+  background-color: white;
+  width: 80%;
+}
+
+.pokedex-card {
+  background-color: rgb(242, 242, 242);
+  border-radius: 8px;
+  padding: 24px;
+  margin: 8px;
+  width: 20%;
+}
+
+.pokedex-card img {
+  width: 100%;
+}
+
+.pokedex-card > p {
+  color: rgb(80, 80, 80);
+}
+
+.pokedex-card > h1 {
+  font-weight: 400;
+  font-size: 24px;
+  margin: 8px 0;
+}
+
+.pokedex-card__types {
+  display: flex;
+}
+
+.pokedex-card__types > p {
+  font-size: 12px;
+  padding: 6px 20px;
+  margin: 0 6px;
+  border-radius: 8px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 32px 0;
+}
+
+.grass {
+  background-color: #9BCC50;
+  color:rgb(24, 24, 24);
+}
+
+.poison {
+  background-color: rgb(185, 127, 201);
+  color: rgb(242, 242, 242);
+}
+
+.fire {
+  background-color: rgb(253, 125, 36);
+  color: rgb(24, 24, 24);
+}
+
+.flying {
+  background-color: rgb(168, 144, 240);
+  color: rgb(24, 24, 24);
+}
+
+.water {
+  background-color: rgb(69, 146, 196);
+  color: rgb(242, 242, 242);
+}
+
+.bug {
+  background-color: rgb(114, 159, 63);
+  color: rgb(242, 242, 242);
+}

@@ -11,10 +11,6 @@ body {
   padding: 0 36px;
 }
 
-/*
-1. Alinhe o main ao centro do body. Certifique-se de que a orientação dos elementos dentro do body continue sendo de cima para baixo.
-
-*/
 
 header {
   padding: 36px 0;
@@ -43,17 +39,9 @@ main {
   width: 80%;
 }
 
-/*
-2. Alinhe o aside de modo que fique lado-a-lado com o article.
-*/
-
 aside {
   max-width: 480px;
 }
-
-/* 
-3. Alinhe os elementos dentro do aside ao centro. Novamente, certifique-se de que estejam no sentido de cima para baixo.
-*/
 
 .main-heading {
   text-transform: uppercase;
@@ -80,8 +68,6 @@ aside {
   text-align: center;
   margin: 36px 0;
 }
-
-/*4. Alinhe os reviews de modo que fiquem dois por linha. */
 
 .review-card {
   width: 40%;

@@ -1,0 +1,3 @@
+[submodule "course"]
+	path = course
+	url = git@github.com:betrybe/course.git

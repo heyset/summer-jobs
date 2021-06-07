@@ -10,3 +10,6 @@
 [submodule "exercises-repos/exercise-pokedex-router"]
 	path = exercises-repos/exercise-pokedex-router
 	url = git@github.com:tryber/exercise-pokedex-router.git
+[submodule "exercises-repos/exercise-pokedex-router-fix"]
+	path = exercises-repos/exercise-pokedex-router-fix
+	url = git@github.com:heyset/exercise-pokedex-router.git

@@ -1,3 +1,6 @@
 [submodule "course"]
 	path = course
 	url = git@github.com:betrybe/course.git
+[submodule "projetos/sd-0x-project-lessons-learned"]
+	path = projetos/sd-0x-project-lessons-learned
+	url = git@github.com:betrybe/sd-0x-project-lessons-learned.git

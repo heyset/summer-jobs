@@ -4,3 +4,9 @@
 [submodule "projetos/sd-0x-project-lessons-learned"]
 	path = projetos/sd-0x-project-lessons-learned
 	url = git@github.com:betrybe/sd-0x-project-lessons-learned.git
+[submodule "exercises-repos/comprehension-exercises-router"]
+	path = exercises-repos/comprehension-exercises-router
+	url = git@github.com:tryber/comprehension-exercises-router.git
+[submodule "exercises-repos/exercise-pokedex-router"]
+	path = exercises-repos/exercise-pokedex-router
+	url = git@github.com:tryber/exercise-pokedex-router.git

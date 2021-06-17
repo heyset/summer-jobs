@@ -13,3 +13,6 @@
 [submodule "exercises-repos/exercise-pokedex-router-fix"]
 	path = exercises-repos/exercise-pokedex-router-fix
 	url = git@github.com:heyset/exercise-pokedex-router.git
+[submodule "live-lectures"]
+	path = live-lectures
+	url = git@github.com:betrybe/live-lectures.git

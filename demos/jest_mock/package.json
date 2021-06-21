@@ -1,8 +1,8 @@
 {
-  "name": "demos",
+  "name": "jest_mock",
   "version": "1.0.0",
   "description": "",
-  "main": "promises-1-start.test.js",
+  "main": "index.js",
   "scripts": {
     "test": "jest --watchAll"
   },

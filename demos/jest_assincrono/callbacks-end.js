@@ -19,12 +19,26 @@ const db = [
   },
 ]
 
+let shouldFail = false;
+
+function hackTheDb() {
+  shouldFail = true;
+}
+
+function restartDb() {
+  shouldFail = false;
+}
+
 function findOne(filter, callback) {
   setTimeout(() => {
+    if (shouldFail) {
+      return callback(new Error('Explodiu'), null);
+    }
+
     const queryResults = db.find(filter);
     
     callback(null, queryResults);
-  }, 3000);
+  }, 100);
 }
 
 function getGreeting(filter, callback) {
@@ -43,4 +57,6 @@ function getGreeting(filter, callback) {
 
 module.exports = {
   getGreeting,
+  hackTheDb,
+  restartDb,
 }

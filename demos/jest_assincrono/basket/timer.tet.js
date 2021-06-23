@@ -1,5 +1,5 @@
 const { describe, it, expect } = require('@jest/globals');
-const { createTimer } = require('./timer-base');
+const { createTimer } = require('./timer');
 
 describe('fn createTimer(),', () => {
   it('Chama o endcallback quando o tempo acaba', (done) => {
@@ -9,7 +9,7 @@ describe('fn createTimer(),', () => {
     }
 
     function stopCallBack () {
-
+      
     }
 
     const timer = createTimer({ duration: 2, endCallback, stopCallback });

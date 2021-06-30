@@ -17,6 +17,7 @@ describe('Um dado de 10 faces retorna, ', () => {
     mockedRandom
       .mockReturnValueOnce(0);
 
-    expect(rollDie(10)).toBe(1);
-  });z
+      expect(rollDie(10)).toBe(1);
+      expect(mockedRandom).toHaveBeenCalled();
+  });
 });

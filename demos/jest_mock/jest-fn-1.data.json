@@ -1,0 +1,33 @@
+{
+  "expectedPlaces": [{"title":"Rio de Janeiro","location_type":"City","woeid":455825,"latt_long":"-22.976730,-43.195080"}],
+  "expectedWeather": {"consolidated_weather":[{"id":6718978505310208,"weather_state_name":"Light Rain","weather_state_abbr":"lr","wind_direction_compass":"SW","created":"2021-06-30T09:40:49.556164Z","applicable_date":"2021-06-30","min_temp":16.875,"max_temp":18.865000000000002,"the_temp":18.46,"wind_speed":7.86552003182481,"wind_direction":225.0,"air_pressure":1024.0,"humidity":69,"visibility":10.957880975105383,"predictability":75},{"id":5445583851487232,"weather_state_name":"Heavy Cloud","weather_state_abbr":"hc","wind_direction_compass":"WSW","created":"2021-06-30T09:40:52.553712Z","applicable_date":"2021-07-01","min_temp":16.235,"max_temp":21.475,"the_temp":20.59,"wind_speed":6.052868837092713,"wind_direction":256.64719051576975,"air_pressure":1027.5,"humidity":64,"visibility":12.733449156923566,"predictability":71},{"id":6220143018377216,"weather_state_name":"Clear","weather_state_abbr":"c","wind_direction_compass":"NE","created":"2021-06-30T09:40:55.583061Z","applicable_date":"2021-07-02","min_temp":15.39,"max_temp":22.845,"the_temp":22.3,"wind_speed":4.352243863124685,"wind_direction":54.34555396391467,"air_pressure":1026.5,"humidity":61,"visibility":14.326023522627853,"predictability":68},{"id":4557437160914944,"weather_state_name":"Clear","weather_state_abbr":"c","wind_direction_compass":"ENE","created":"2021-06-30T09:40:58.599462Z","applicable_date":"2021-07-03","min_temp":15.21,"max_temp":24.05,"the_temp":23.855,"wind_speed":3.3784070632784537,"wind_direction":58.25194962767052,"air_pressure":1023.0,"humidity":58,"visibility":14.269478744134256,"predictability":68},{"id":6663249526259712,"weather_state_name":"Light Cloud","weather_state_abbr":"lc","wind_direction_compass":"SW","created":"2021-06-30T09:41:01.568142Z","applicable_date":"2021-07-04","min_temp":15.870000000000001,"max_temp":22.155,"the_temp":22.905,"wind_speed":3.8298624222434317,"wind_direction":222.32601013648767,"air_pressure":1025.0,"humidity":69,"visibility":13.277148950131233,"predictability":70},{"id":5618414878982144,"weather_state_name":"Clear","weather_state_abbr":"c","wind_direction_compass":"E","created":"2021-06-30T09:41:04.499023Z","applicable_date":"2021-07-05","min_temp":15.495000000000001,"max_temp":22.79,"the_temp":22.39,"wind_speed":3.457736220472441,"wind_direction":91.50000000000001,"air_pressure":1025.0,"humidity":67,"visibility":9.999726596675416,"predictability":68}],"time":"2021-06-30T08:19:50.779881-03:00","sun_rise":"2021-06-30T06:34:16.051470-03:00","sun_set":"2021-06-30T17:18:52.618200-03:00","timezone_name":"LMT","parent":{"title":"Brazil","location_type":"Country","woeid":23424768,"latt_long":"-14.242920,-54.387829"},"sources":[{"title":"BBC","slug":"bbc","url":"http://www.bbc.co.uk/weather/","crawl_rate":360},{"title":"Forecast.io","slug":"forecast-io","url":"http://forecast.io/","crawl_rate":480},{"title":"Met Office","slug":"met-office","url":"http://www.metoffice.gov.uk/","crawl_rate":180},{"title":"OpenWeatherMap","slug":"openweathermap","url":"http://openweathermap.org/","crawl_rate":360},{"title":"Weather Underground","slug":"wunderground","url":"https://www.wunderground.com/?apiref=fc30dc3cd224e19b","crawl_rate":720},{"title":"World Weather Online","slug":"world-weather-online","url":"http://www.worldweatheronline.com/","crawl_rate":360}],"title":"Rio de Janeiro","location_type":"City","woeid":455825,"latt_long":"-22.976730,-43.195080","timezone":"America/Sao_Paulo"},
+  "expectedObject": {
+    "title": "Rio de Janeiro",
+    "forecasts": [
+      {
+        "date": "2021-06-30",
+        "desc": "O clima previsto para a cidade de Rio de Janeiro é: chuva leve. A temperatura mínima é de 17 graus Celsius e a máxima é de 19 graus Celsius."
+      },
+      {
+        "date": "2021-07-01",
+        "desc": "O clima previsto para a cidade de Rio de Janeiro é: nublado. A temperatura mínima é de 16 graus Celsius e a máxima é de 21 graus Celsius."
+      },
+      {
+        "date": "2021-07-02",
+        "desc": "O clima previsto para a cidade de Rio de Janeiro é: ensolarado. A temperatura mínima é de 15 graus Celsius e a máxima é de 23 graus Celsius."
+      },
+      {
+        "date": "2021-07-03",
+        "desc": "O clima previsto para a cidade de Rio de Janeiro é: ensolarado. A temperatura mínima é de 15 graus Celsius e a máxima é de 24 graus Celsius."
+      },
+      {
+        "date": "2021-07-04",
+        "desc": "O clima previsto para a cidade de Rio de Janeiro é: parcialmente nublado. A temperatura mínima é de 16 graus Celsius e a máxima é de 22 graus Celsius."
+      },
+      {
+        "date": "2021-07-05",
+        "desc": "O clima previsto para a cidade de Rio de Janeiro é: ensolarado. A temperatura mínima é de 15 graus Celsius e a máxima é de 23 graus Celsius."
+      }
+    ]
+  }
+}

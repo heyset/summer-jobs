@@ -1,4 +1,4 @@
-const { rollDie } = require('./umDadoDoido');
+// const { rollDie } = require('./umDadoDoido');
 const { describe, it, expect } = require('@jest/globals');
 
 describe('Um dado de 10 faces retorna, ', () => {

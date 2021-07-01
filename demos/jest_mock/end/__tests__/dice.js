@@ -1,4 +1,4 @@
-// const { rollDie } = require('./umDadoDoido');
+const { rollDie } = require('../src/dice');
 const { describe, it, expect } = require('@jest/globals');
 
 describe('Um dado de 10 faces retorna, ', () => {
@@ -9,6 +9,7 @@ describe('Um dado de 10 faces retorna, ', () => {
       .mockReturnValueOnce(0.99);
 
     expect(rollDie(10)).toBe(10);
+    expect(mockedRandom).toHaveBeenCalled();
   });
 
   it('no minimo 1', () => {

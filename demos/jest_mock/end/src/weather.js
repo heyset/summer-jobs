@@ -51,8 +51,6 @@ async function queryForecast({ query, id }) {
   }
 }
 
-queryForecast({ query: 'brasília' }).then(console.log);
-
 module.exports = {
   queryForecast,
 }

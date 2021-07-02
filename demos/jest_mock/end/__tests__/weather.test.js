@@ -4,6 +4,8 @@ jest.mock('../src/services/weatherApi');
 const { queryForecast } = require('../src/weather');
 const { fetchPlaces, fetchWeather } = require('../src/services/weatherApi');
 
+fetchPlaces();
+
 describe('A função queryForecast', () => {
   it('chama as funções de fetch com os parâmetros corretos', async () => {
     await queryForecast({ query: 'brasília' });
@@ -13,7 +15,7 @@ describe('A função queryForecast', () => {
   });
 
   it('retorna o objeto correto', async () => {
-    const expectedForecast = require('./fixtures/weather.json');
+    const { expectedForecast } = require('./fixtures/weather.json');
 
     const forecast = await queryForecast({ query: 'brasília' });
 

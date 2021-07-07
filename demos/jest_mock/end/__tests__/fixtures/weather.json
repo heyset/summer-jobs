@@ -1,0 +1,31 @@
+{
+	"expectedForecast": {
+		"city": "Brasília",
+		"forecasts": [
+			{
+				"date": "2021-06-30",
+				"desc": "O clima previsto para a cidade de Brasília é: ensolarado. A temperatura mínima é de 8 graus Celsius e a máxima é de 24 graus Celsius."
+			},
+			{
+				"date": "2021-07-01",
+				"desc": "O clima previsto para a cidade de Brasília é: ensolarado. A temperatura mínima é de 12 graus Celsius e a máxima é de 25 graus Celsius."
+			},
+			{
+				"date": "2021-07-02",
+				"desc": "O clima previsto para a cidade de Brasília é: ensolarado. A temperatura mínima é de 12 graus Celsius e a máxima é de 25 graus Celsius."
+			},
+			{
+				"date": "2021-07-03",
+				"desc": "O clima previsto para a cidade de Brasília é: ensolarado. A temperatura mínima é de 13 graus Celsius e a máxima é de 25 graus Celsius."
+			},
+			{
+				"date": "2021-07-04",
+				"desc": "O clima previsto para a cidade de Brasília é: ensolarado. A temperatura mínima é de 13 graus Celsius e a máxima é de 25 graus Celsius."
+			},
+			{
+				"date": "2021-07-05",
+				"desc": "O clima previsto para a cidade de Brasília é: parcialmente nublado. A temperatura mínima é de 13 graus Celsius e a máxima é de 26 graus Celsius."
+			}
+		]
+	}
+}

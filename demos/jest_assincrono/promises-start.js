@@ -1,3 +1,5 @@
+// No começo, o código é exatamente o mesmo.
+
 const db = [
   {
     id: 123,
@@ -29,6 +31,10 @@ function restartDb() {
   shouldFail = false;
 }
 
+// Até aqui o código é o mesmo.
+
+// A função abaixo retorna uma promise e rejeita caso a variável shouldFail seja verdadeira.
+
 function findOne(filter) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
@@ -42,6 +48,11 @@ function findOne(filter) {
     }, 100);
   })
 }
+
+// Abaixo temos uma função assíncrona.
+
+// OE: Ressalte que as duas formas de trabalhar são válidas, mas frise que, fora de testes, sempre que você escrever um await, precisa lidar com o erro com try/catch.
+// OE: Explique também que toda função assíncrona retorna uma "promise-like", que a gente pode tratar basicamente como uma promise mesmo.
 
 async function getGreeting(filter) {
   try {

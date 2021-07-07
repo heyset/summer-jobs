@@ -38,7 +38,7 @@ function findOne(filter, callback) {
     const queryResults = db.find(filter);
     
     callback(null, queryResults);
-  }, 100);
+  }, 300);
 }
 
 function getGreeting(filter, callback) {

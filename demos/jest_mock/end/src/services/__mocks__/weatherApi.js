@@ -1,7 +1,7 @@
 const { search, byId } = require('./fixtures/weatherApi.json');
 
-const fetchPlaces = jest.fn().mockResolvedValue(search);
-const fetchWeather = jest.fn().mockResolvedValue(byId);
+const fetchPlaces = jest.fn();
+const fetchWeather = jest.fn();
 
 module.exports = {
   fetchPlaces,
